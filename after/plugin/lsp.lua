@@ -4,7 +4,7 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'rust_analyzer',
-  'gofmt',
+  'gopls',
 })
 
 -- Fix Undefined global 'vim'
