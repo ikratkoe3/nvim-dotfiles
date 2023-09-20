@@ -39,4 +39,9 @@ return require('packer').startup(function(use)
     }
     use 'folke/zen-mode.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
+    use 'nvim-treesitter/nvim-treesitter-context'
+    use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+    }
 end)
