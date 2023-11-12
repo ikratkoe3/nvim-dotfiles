@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use 'mbbill/undotree'
     use 'ThePrimeagen/harpoon'
+    use 'lewis6991/gitsigns.nvim'
     use 'tpope/vim-fugitive'
     use {
     'VonHeikemen/lsp-zero.nvim',
@@ -38,8 +39,6 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
     use 'folke/zen-mode.nvim'
-    use 'lukas-reineke/indent-blankline.nvim'
-    use 'nvim-treesitter/nvim-treesitter-context'
     use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
