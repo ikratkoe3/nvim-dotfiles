@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     use 'mbbill/undotree'
     use 'ThePrimeagen/harpoon'
     use 'lewis6991/gitsigns.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
     use 'tpope/vim-fugitive'
     use {
     'VonHeikemen/lsp-zero.nvim',
