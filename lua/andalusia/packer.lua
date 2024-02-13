@@ -10,7 +10,7 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use 'mbbill/undotree'
     use 'lewis6991/gitsigns.nvim'
-    use 'lukas-reineke/indent-blankline.nvim'
+    -- use 'lukas-reineke/indent-blankline.nvim'
     use 'projekt0n/github-nvim-theme'
     use 'tpope/vim-fugitive'
     use {
